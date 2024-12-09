@@ -110,20 +110,20 @@ struct strings tr_TR = {
  /* advanced tab */
  /* box                */ L"Gelişmiş Ayarlar",
  /* hookwindows        */ L"&EPencereleri sürüklerken yapışmayı etkinleştir.\nOtomatik yapışma ile birlikte çalışır!",
- /* hookwindows_warn   */ L"Note that this is not 100% safe as this feature works by hooking into other processes. This might be risky to use when playing games with anti-cheat protection.\n\nAre you sure you want to enable this feature?",
- /* checkonstartup     */ L"A&utomatically check for updates",
- /* beta               */ L"Check for &beta versions",
- /* checknow           */ L"&Check now",
- /* ini                */ APP_NAME L"'s settings are saved in "APP_NAME".ini. There are a few things that you can only configure by editing the file manually.",
- /* openini            */ L"Open &ini file",
+ /* hookwindows_warn   */ L"Bu özellik diğer işlemlere bağlanarak çalıştığı için %100 güvenli olmadığını unutmayın. Hile korumalı oyunlar oynarken bu özelliği kullanmak riskli olabilir.\n\nBu özelliği etkinleştirmek istediğinize emin misiniz?",
+ /* checkonstartup     */ L"G&üncellemeleri başlangıçta otomatik olarak kontrol et",
+ /* beta               */ L"&Beta sürümleri kontrol et",
+ /* checknow           */ L"&Şimdi kontrol et",
+ /* ini                */ APP_NAME L"ayarları "APP_NAME".ini dosyasına kaydedilir. Yalnızca dosyayı manuel olarak düzenleyerek ayarlayabileceğiniz birkaç şey vardır.",
+ /* openini            */ L"&ini dosyasını aç",
 
  /* about tab */
- /* box                */ L"About "APP_NAME,
- /* version            */ L"Version "APP_VERSION,
- /* author             */ L"Created by Stefan Sundin",
- /* license            */ APP_NAME L" is free and open source software!\nFeel free to redistribute!",
- /* donate             */ L"&Donate",
- /* translation_credit */ L"Translation credit",
+ /* box                */ L APP_NAME" Hakkında",
+ /* version            */ L"Sürüm "APP_VERSION,
+ /* author             */ L"Stefan Sundin tarafından geliştirildi.",
+ /* license            */ APP_NAME L" ücretsiz ve açık kaynaklıdır!\nYeniden dağıtmaktan çekinmeyin!",
+ /* donate             */ L"&Bağış",
+ /* translation_credit */ L"Çeviren",
 
  /* === misc === */
  /* unhook_error       */ L"There was an error disabling "APP_NAME". This was most likely caused by Windows having already disabled "APP_NAME"'s hooks.\n\nIf this is the first time this has happened, you can safely ignore it and continue using "APP_NAME".\n\nIf this is happening repeatedly, you can read on the website how to prevent this from happening again (look for '"APP_NAME" mysteriously stops working' in the documentation).",
