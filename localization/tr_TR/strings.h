@@ -15,8 +15,8 @@ struct strings tr_TR = {
  /* author             */ L"Melih Ak",
 
  /* === app === */
- /* tray_enabled       */ APP_NAME L"",
- /* tray_disabled      */ APP_NAME L" (Devre Dışı)",
+ /* tray_enabled       */ APP_NAME L"AltDrag",
+ /* tray_disabled      */ APP_NAME L"AltDrag (Devre Dışı)",
 
  /* menu */
  /* enable             */ L"Etkinleştir",

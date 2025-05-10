@@ -1,30 +1,30 @@
-﻿; AltDrag - en-US localization by Stefan Sundin
+﻿; AltDrag - tr-TR localization by Melih AK
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by
 ; the Free Software Foundation, either version 3 of the License, or
 ; (at your option) any later version.
 
-!insertmacro MUI_LANGUAGE "English" ; English name of this language
-LangString L10N_LANG ${LANG_ENGLISH} ""
+!insertmacro MUI_LANGUAGE "Turkish"
+LangString L10N_LANG ${LANG_TURKISH} ""
 
-LangString L10N_UPGRADE_TITLE     0 "Already Installed"
-LangString L10N_UPGRADE_SUBTITLE  0 "Choose how you want to install ${APP_NAME}."
-LangString L10N_UPGRADE_HEADER    0 "${APP_NAME} is already installed on this system. Select the operation you want to perform and click Next to continue."
-LangString L10N_UPGRADE_UPGRADE   0 "&Upgrade ${APP_NAME} to ${APP_VERSION}."
-LangString L10N_UPGRADE_INI       0 "Your existing settings will be copied to ${APP_NAME}-old.ini."
-LangString L10N_UPGRADE_INSTALL   0 "&Install to a new location."
-LangString L10N_UPGRADE_UNINSTALL 0 "Unins&tall ${APP_NAME}."
+LangString L10N_UPGRADE_TITLE     0 "Zaten Yüklendi"
+LangString L10N_UPGRADE_SUBTITLE  0 "${APP_NAME} uygulamasını nasıl yüklemek istediğinizi seçin."
+LangString L10N_UPGRADE_HEADER    0 "${APP_NAME} bu sistemde hâlihazırda yüklü. Bir işlem seçin ve devam etmek için İleri'ye tıklayın."
+LangString L10N_UPGRADE_UPGRADE   0 "${APP_NAME} uygulamasını ${APP_VERSION} sürümüne &güncelle."
+LangString L10N_UPGRADE_INI       0 "Ayarlarınız ${APP_NAME}-old.ini dosyasına kopyalanacak."
+LangString L10N_UPGRADE_INSTALL   0 "Yeni bir konuma &yükle."
+LangString L10N_UPGRADE_UNINSTALL 0 "${APP_NAME} uygulamasını &kaldır."
 
-LangString L10N_ALTSHIFT_TITLE    0 "Keyboard Shortcut"
-LangString L10N_ALTSHIFT_SUBTITLE 0 "The shortcut Alt + Shift conflicts with ${APP_NAME}."
-LangString L10N_ALTSHIFT_HEADER   0 "The installer has detected that the Windows shortcut to toggle the current keyboard layout is Alt + Shift.$\n$\nWhen using ${APP_NAME}, you can press Shift while dragging windows to make them snap to other windows. This means you are likely to press Alt + Shift, the same combination which toggles your keyboard layout. While ${APP_NAME} internally tries to block accidentally switching the keyboard layout, it will not succeed if you press Shift before you start dragging a window.$\n$\nYou can disable or change the shortcut which toggles the keyboard layout by pressing this button. Click Next to continue."
-LangString L10N_ALTSHIFT_BUTTON   0 "&Open keyboard settings"
+LangString L10N_ALTSHIFT_TITLE    0 "Klavye Kısayolu"
+LangString L10N_ALTSHIFT_SUBTITLE 0 "Alt + Shift kısayolu, ${APP_NAME} ile çakışıyor."
+LangString L10N_ALTSHIFT_HEADER   0 "Yükleyici, geçerli klavye düzenini değiştiren Windows kısayolunun Alt + Shift olduğunu algıladı.$\n$\n${APP_NAME} kullanırken, pencereleri diğer pencerelere hizalamak için sürükleme esnasında Shift tuşuna basabilirsiniz. Bu durumda, büyük olasılıkla Alt + Shift tuşlarına aynı anda basarsınız. Bu kombinasyon da klavye düzenini değiştirir.$\n$\n${APP_NAME} bu değişimi engellemeye çalışsa da, pencereyi sürüklemeye başlamadan önce Shift'e basarsanız bunu engelleyemez.$\n$\nBu durumu önlemek için klavye düzenini değiştiren kısayolu devre dışı bırakabilir veya değiştirebilirsiniz. Devam etmek için İleri’ye tıklayın."
+LangString L10N_ALTSHIFT_BUTTON   0 "&Klavye ayarlarını aç"
 
-LangString L10N_HOOKTIMEOUT_TITLE          0 "Registry tweak"
-LangString L10N_HOOKTIMEOUT_SUBTITLE       0 "Optional tweak to keep ${APP_NAME} from stopping unexpectedly."
-LangString L10N_HOOKTIMEOUT_HEADER         0 "In Windows 7, Microsoft implemented a feature that stops keyboard and mouse hooks if they take too long to respond. Unfortunately, this check can erroneously misbehave, especially if you hibernate, sleep, or lock the computer a lot.$\n$\nIf this happens, you will find that ${APP_NAME} stop functioning without warning, and you have to manually disable and enable ${APP_NAME} to make it work again.$\n$\nThere is a registry tweak to make Windows wait longer before stopping hooks, which you can enable or disable by using the buttons below. The tweak will only affect the current user. Please note that this registry tweak is completely optional."
-LangString L10N_HOOKTIMEOUT_APPLYBUTTON    0 "&Enable registry tweak"
-LangString L10N_HOOKTIMEOUT_REVERTBUTTON   0 "&Disable registry tweak"
-LangString L10N_HOOKTIMEOUT_ALREADYAPPLIED 0 "The registry tweak has already been applied."
-LangString L10N_HOOKTIMEOUT_FOOTER         0 "The change will take effect on your next login."
+LangString L10N_HOOKTIMEOUT_TITLE          0 "Kayıt Defteri Ayarı"
+LangString L10N_HOOKTIMEOUT_SUBTITLE       0 "${APP_NAME} uygulamasının beklenmedik şekilde durmasını önlemek için isteğe bağlı bir ayar."
+LangString L10N_HOOKTIMEOUT_HEADER         0 "Windows 7’de Microsoft, klavye ve fare kancaları çok uzun süre yanıt vermezse bunları durduran bir özellik getirdi. Ne yazık ki, özellikle bilgisayarı sık sık uykuya alıyor, kilitliyor veya hazırda bekletiyorsanız bu kontrol yanlış şekilde tetiklenebilir.$\n$\nBöyle bir durumda ${APP_NAME} aniden çalışmayı durdurabilir ve yeniden çalıştırmak için manuel olarak devre dışı bırakıp tekrar etkinleştirmeniz gerekebilir.$\n$\nWindows’un kancaları durdurmadan önce daha uzun beklemesini sağlayan bir kayıt defteri ayarı vardır. Bu ayarı aşağıdaki düğmeleri kullanarak etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayar yalnızca geçerli kullanıcıyı etkiler. Bu ayarın tamamen isteğe bağlı olduğunu unutmayın."
+LangString L10N_HOOKTIMEOUT_APPLYBUTTON    0 "&Kayıt defteri ayarını etkinleştir"
+LangString L10N_HOOKTIMEOUT_REVERTBUTTON   0 "&Kayıt defteri ayarını devre dışı bırak"
+LangString L10N_HOOKTIMEOUT_ALREADYAPPLIED 0 "Kayıt defteri ayarı zaten uygulanmış."
+LangString L10N_HOOKTIMEOUT_FOOTER         0 "Değişiklik, bir sonraki oturum açmanızda etkili olacaktır."
